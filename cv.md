@@ -1,8 +1,10 @@
 # Vitaly Loshakovsky
 
 ## Contact info
+ <li>Location: Minsk, Belarus</li>
  <li>E-mail: vitalikloshakovsky@gmail.com</li>
- <li>Telegram: <a href='https://t.me/username'>@ahgduk</a></li>
+ <li>Telegram: <a href='https://t.me/ahgduk'>@ahgduk</a></li>
+ <li>GitHub: <a href='https://github.com/utygu'>utygu</a></li>
 
 ## Skills
  <li>HTML</li>
