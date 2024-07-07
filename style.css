@@ -1,0 +1,131 @@
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  background-color: #D8CECF;
+  color: #746D46;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: #746D46;
+  transition: color 0.5s;
+}
+
+a {
+      text-decoration: none;
+  color: #746D46;
+  padding: 2px;
+  transition: 1s linear;
+}
+a:hover {
+  color: #4e70ac;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+.section-profile {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 15px solid #d7d1c9;
+}
+
+.section-profile-logo {
+  width: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.6);
+  filter: grayscale(0.2) brightness(1.05);
+  transition: .3s;
+}
+.section-title {
+  float: right;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-name {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;  
+  text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 0;
+  box-sizing: border-box;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  background-color: #364B3C;
+}
+
+.footer-item {
+  margin: 5px 20px;
+}
+
+#footer-github {
+  max-width: 100px;
+  padding-left: 10px;
+}
+
+#logo-rs {
+  width: 100px;
+}
